@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600');
 
 :root {
-    --sans-font: "Open Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
-    --bg: #FFF;
-    --text: #5F5F5F;
-    --text-accent: #000;
-    --link: #07b4ff;
-    --particles: rgba(50, 50, 50, 0.11);
+  --sans-font: "Open Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  --bg: #FEFEFE;
+  --text: #5E5E5E;
+  --text-accent: #000;
+  --link: #57A0D9;
+  --particles: rgba(50, 50, 50, 0.11);
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --bg: #212121;
-        --text: #DCDCDC;
-        --text-accent: #FEFEFE;
-        --link: #FB3;
-        --particles: rgba(255, 255, 255, 0.07);
-    }
+  :root {
+    --bg: #19171A;
+    --text: #DCDCDC;
+    --text-accent: #FEFEFE;
+    --link: #57A0D9;
+    --particles: rgba(255, 255, 255, 0.07);
+  }
 }
 
 * {
